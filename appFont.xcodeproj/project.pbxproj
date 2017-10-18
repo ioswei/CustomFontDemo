@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C14C3481DE82A1900E9E3A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C14C3471DE82A1900E9E3A2 /* main.m */; };
+		3C14C34B1DE82A1900E9E3A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C14C34A1DE82A1900E9E3A2 /* AppDelegate.m */; };
+		3C14C34E1DE82A1900E9E3A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C14C34D1DE82A1900E9E3A2 /* ViewController.m */; };
+		3C14C3511DE82A1900E9E3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C34F1DE82A1900E9E3A2 /* Main.storyboard */; };
+		3C14C3531DE82A1900E9E3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C3521DE82A1900E9E3A2 /* Assets.xcassets */; };
+		3C14C3561DE82A1900E9E3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C3541DE82A1900E9E3A2 /* LaunchScreen.storyboard */; };
+		3C7ADCB01DE9177100756344 /* msyh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADC9F1DE9177100756344 /* msyh.ttf */; };
+		3C7ADCB11DE9177100756344 /* msyhbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA01DE9177100756344 /* msyhbd.ttf */; };
+		3C7ADCB21DE9177100756344 /* 华康少女体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA11DE9177100756344 /* 华康少女体.ttf */; };
+		3C7ADCB31DE9177100756344 /* 华康雅宋体.TTf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA21DE9177100756344 /* 华康雅宋体.TTf */; };
+		3C7ADCB41DE9177100756344 /* 文鼎中特广告体.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA31DE9177100756344 /* 文鼎中特广告体.TTF */; };
+		3C7ADCB51DE9177100756344 /* 文鼎霹雳体.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA41DE9177100756344 /* 文鼎霹雳体.TTF */; };
+		3C7ADCB71DE9177100756344 /* 时尚中黑简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA61DE9177100756344 /* 时尚中黑简体.ttf */; };
+		3C7ADCB81DE9177100756344 /* 晴圆.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA71DE9177100756344 /* 晴圆.ttc */; };
+		3C7ADCB91DE9177100756344 /* 段宁毛笔行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA81DE9177100756344 /* 段宁毛笔行书.ttf */; };
+		3C7ADCBA1DE9177100756344 /* 汉真广标.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA91DE9177100756344 /* 汉真广标.ttf */; };
+		3C7ADCBB1DE9177100756344 /* 汉鼎简行书.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAA1DE9177100756344 /* 汉鼎简行书.TTF */; };
+		3C7ADCBC1DE9177100756344 /* 浪漫雅圆.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAB1DE9177100756344 /* 浪漫雅圆.ttf */; };
+		3C7ADCBD1DE9177100756344 /* 百度综艺简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAC1DE9177100756344 /* 百度综艺简体.ttf */; };
+		3C7ADCBE1DE9177100756344 /* 胡晓波美心常规体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAD1DE9177100756344 /* 胡晓波美心常规体.ttf */; };
+		3C7ADCBF1DE9177100756344 /* 苏新诗卵石体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAE1DE9177100756344 /* 苏新诗卵石体.ttf */; };
+		3C7ADCC01DE9177100756344 /* 蒙纳简超刚黑.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAF1DE9177100756344 /* 蒙纳简超刚黑.ttf */; };
+		4F4DA4B11F94454400A44068 /* DigifaceWideRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F4DA4B01F94454400A44068 /* DigifaceWideRegular.ttf */; };
+		F532EDE91DE8503F003DDF2E /* ZYFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F532EDE81DE8503F003DDF2E /* ZYFontViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C14C3431DE82A1900E9E3A2 /* appFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C14C3471DE82A1900E9E3A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C14C3491DE82A1900E9E3A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C14C34A1DE82A1900E9E3A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C14C34C1DE82A1900E9E3A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C14C34D1DE82A1900E9E3A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C14C3501DE82A1900E9E3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C14C3521DE82A1900E9E3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C14C3551DE82A1900E9E3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C14C3571DE82A1A00E9E3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7ADC9F1DE9177100756344 /* msyh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyh.ttf; sourceTree = "<group>"; };
+		3C7ADCA01DE9177100756344 /* msyhbd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyhbd.ttf; sourceTree = "<group>"; };
+		3C7ADCA11DE9177100756344 /* 华康少女体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康少女体.ttf"; sourceTree = "<group>"; };
+		3C7ADCA21DE9177100756344 /* 华康雅宋体.TTf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康雅宋体.TTf"; sourceTree = "<group>"; };
+		3C7ADCA31DE9177100756344 /* 文鼎中特广告体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "文鼎中特广告体.TTF"; sourceTree = "<group>"; };
+		3C7ADCA41DE9177100756344 /* 文鼎霹雳体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "文鼎霹雳体.TTF"; sourceTree = "<group>"; };
+		3C7ADCA61DE9177100756344 /* 时尚中黑简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "时尚中黑简体.ttf"; sourceTree = "<group>"; };
+		3C7ADCA71DE9177100756344 /* 晴圆.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "晴圆.ttc"; sourceTree = "<group>"; };
+		3C7ADCA81DE9177100756344 /* 段宁毛笔行书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "段宁毛笔行书.ttf"; sourceTree = "<group>"; };
+		3C7ADCA91DE9177100756344 /* 汉真广标.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "汉真广标.ttf"; sourceTree = "<group>"; };
+		3C7ADCAA1DE9177100756344 /* 汉鼎简行书.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "汉鼎简行书.TTF"; sourceTree = "<group>"; };
+		3C7ADCAB1DE9177100756344 /* 浪漫雅圆.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "浪漫雅圆.ttf"; sourceTree = "<group>"; };
+		3C7ADCAC1DE9177100756344 /* 百度综艺简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "百度综艺简体.ttf"; sourceTree = "<group>"; };
+		3C7ADCAD1DE9177100756344 /* 胡晓波美心常规体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "胡晓波美心常规体.ttf"; sourceTree = "<group>"; };
+		3C7ADCAE1DE9177100756344 /* 苏新诗卵石体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "苏新诗卵石体.ttf"; sourceTree = "<group>"; };
+		3C7ADCAF1DE9177100756344 /* 蒙纳简超刚黑.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蒙纳简超刚黑.ttf"; sourceTree = "<group>"; };
+		4F4DA4B01F94454400A44068 /* DigifaceWideRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigifaceWideRegular.ttf; sourceTree = "<group>"; };
+		F532EDE71DE8503F003DDF2E /* ZYFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFontViewController.h; sourceTree = "<group>"; };
+		F532EDE81DE8503F003DDF2E /* ZYFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFontViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C14C3401DE82A1900E9E3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C14C33A1DE82A1900E9E3A2 = {
+			isa = PBXGroup;
+			children = (
+				3C14C3451DE82A1900E9E3A2 /* appFont */,
+				3C14C3441DE82A1900E9E3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C14C3441DE82A1900E9E3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C14C3431DE82A1900E9E3A2 /* appFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C14C3451DE82A1900E9E3A2 /* appFont */ = {
+			isa = PBXGroup;
+			children = (
+				3C7ADC9E1DE9177100756344 /* 美工常用设计字体 */,
+				3C14C3491DE82A1900E9E3A2 /* AppDelegate.h */,
+				3C14C34A1DE82A1900E9E3A2 /* AppDelegate.m */,
+				3C14C34C1DE82A1900E9E3A2 /* ViewController.h */,
+				3C14C34D1DE82A1900E9E3A2 /* ViewController.m */,
+				F532EDE71DE8503F003DDF2E /* ZYFontViewController.h */,
+				F532EDE81DE8503F003DDF2E /* ZYFontViewController.m */,
+				3C14C34F1DE82A1900E9E3A2 /* Main.storyboard */,
+				3C14C3521DE82A1900E9E3A2 /* Assets.xcassets */,
+				3C14C3541DE82A1900E9E3A2 /* LaunchScreen.storyboard */,
+				3C14C3571DE82A1A00E9E3A2 /* Info.plist */,
+				3C14C3461DE82A1900E9E3A2 /* Supporting Files */,
+			);
+			path = appFont;
+			sourceTree = "<group>";
+		};
+		3C14C3461DE82A1900E9E3A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C14C3471DE82A1900E9E3A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7ADC9E1DE9177100756344 /* 美工常用设计字体 */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DA4B01F94454400A44068 /* DigifaceWideRegular.ttf */,
+				3C7ADC9F1DE9177100756344 /* msyh.ttf */,
+				3C7ADCA01DE9177100756344 /* msyhbd.ttf */,
+				3C7ADCA11DE9177100756344 /* 华康少女体.ttf */,
+				3C7ADCA21DE9177100756344 /* 华康雅宋体.TTf */,
+				3C7ADCA31DE9177100756344 /* 文鼎中特广告体.TTF */,
+				3C7ADCA41DE9177100756344 /* 文鼎霹雳体.TTF */,
+				3C7ADCA61DE9177100756344 /* 时尚中黑简体.ttf */,
+				3C7ADCA71DE9177100756344 /* 晴圆.ttc */,
+				3C7ADCA81DE9177100756344 /* 段宁毛笔行书.ttf */,
+				3C7ADCA91DE9177100756344 /* 汉真广标.ttf */,
+				3C7ADCAA1DE9177100756344 /* 汉鼎简行书.TTF */,
+				3C7ADCAB1DE9177100756344 /* 浪漫雅圆.ttf */,
+				3C7ADCAC1DE9177100756344 /* 百度综艺简体.ttf */,
+				3C7ADCAD1DE9177100756344 /* 胡晓波美心常规体.ttf */,
+				3C7ADCAE1DE9177100756344 /* 苏新诗卵石体.ttf */,
+				3C7ADCAF1DE9177100756344 /* 蒙纳简超刚黑.ttf */,
+			);
+			path = "美工常用设计字体";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C14C3421DE82A1900E9E3A2 /* appFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C14C35A1DE82A1A00E9E3A2 /* Build configuration list for PBXNativeTarget "appFont" */;
+			buildPhases = (
+				3C14C33F1DE82A1900E9E3A2 /* Sources */,
+				3C14C3401DE82A1900E9E3A2 /* Frameworks */,
+				3C14C3411DE82A1900E9E3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appFont;
+			productName = appFont;
+			productReference = 3C14C3431DE82A1900E9E3A2 /* appFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C14C33B1DE82A1900E9E3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LDWL;
+				TargetAttributes = {
+					3C14C3421DE82A1900E9E3A2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3FNWT2YM5W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C14C33E1DE82A1900E9E3A2 /* Build configuration list for PBXProject "appFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C14C33A1DE82A1900E9E3A2;
+			productRefGroup = 3C14C3441DE82A1900E9E3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C14C3421DE82A1900E9E3A2 /* appFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C14C3411DE82A1900E9E3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7ADCB81DE9177100756344 /* 晴圆.ttc in Resources */,
+				3C7ADCB41DE9177100756344 /* 文鼎中特广告体.TTF in Resources */,
+				3C7ADCB51DE9177100756344 /* 文鼎霹雳体.TTF in Resources */,
+				3C7ADCBA1DE9177100756344 /* 汉真广标.ttf in Resources */,
+				3C7ADCB91DE9177100756344 /* 段宁毛笔行书.ttf in Resources */,
+				3C7ADCB21DE9177100756344 /* 华康少女体.ttf in Resources */,
+				3C7ADCBF1DE9177100756344 /* 苏新诗卵石体.ttf in Resources */,
+				3C7ADCB01DE9177100756344 /* msyh.ttf in Resources */,
+				3C7ADCBE1DE9177100756344 /* 胡晓波美心常规体.ttf in Resources */,
+				3C7ADCC01DE9177100756344 /* 蒙纳简超刚黑.ttf in Resources */,
+				3C14C3561DE82A1900E9E3A2 /* LaunchScreen.storyboard in Resources */,
+				4F4DA4B11F94454400A44068 /* DigifaceWideRegular.ttf in Resources */,
+				3C7ADCBD1DE9177100756344 /* 百度综艺简体.ttf in Resources */,
+				3C14C3531DE82A1900E9E3A2 /* Assets.xcassets in Resources */,
+				3C7ADCB11DE9177100756344 /* msyhbd.ttf in Resources */,
+				3C7ADCB31DE9177100756344 /* 华康雅宋体.TTf in Resources */,
+				3C7ADCBC1DE9177100756344 /* 浪漫雅圆.ttf in Resources */,
+				3C14C3511DE82A1900E9E3A2 /* Main.storyboard in Resources */,
+				3C7ADCBB1DE9177100756344 /* 汉鼎简行书.TTF in Resources */,
+				3C7ADCB71DE9177100756344 /* 时尚中黑简体.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C14C33F1DE82A1900E9E3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C14C34E1DE82A1900E9E3A2 /* ViewController.m in Sources */,
+				3C14C34B1DE82A1900E9E3A2 /* AppDelegate.m in Sources */,
+				F532EDE91DE8503F003DDF2E /* ZYFontViewController.m in Sources */,
+				3C14C3481DE82A1900E9E3A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C14C34F1DE82A1900E9E3A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C14C3501DE82A1900E9E3A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C14C3541DE82A1900E9E3A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C14C3551DE82A1900E9E3A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C14C3581DE82A1A00E9E3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C14C3591DE82A1A00E9E3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C14C35B1DE82A1A00E9E3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FNWT2YM5W;
+				INFOPLIST_FILE = appFont/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ldwl.com.appFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C14C35C1DE82A1A00E9E3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FNWT2YM5W;
+				INFOPLIST_FILE = appFont/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ldwl.com.appFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C14C33E1DE82A1900E9E3A2 /* Build configuration list for PBXProject "appFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C14C3581DE82A1A00E9E3A2 /* Debug */,
+				3C14C3591DE82A1A00E9E3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C14C35A1DE82A1A00E9E3A2 /* Build configuration list for PBXNativeTarget "appFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C14C35B1DE82A1A00E9E3A2 /* Debug */,
+				3C14C35C1DE82A1A00E9E3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C14C33B1DE82A1900E9E3A2 /* Project object */;
+}
