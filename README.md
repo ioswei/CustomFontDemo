@@ -1,5 +1,6 @@
 # CustomFontDemo
-# 中标题 本demo 以液晶字体为例
+本demo 以液晶字体为例中标题  
+----------------------------------- 
 iOS自定义字体设置与系统自带的字体<br /> 
 1.下载所需要的ttf文件,导入工程中,在Info.plist中添加一项:Fonts provided by application,填写字体文件名称加后缀.如图: Info.plist配置
 ![配置](http://s15.sinaimg.cn/mw690/005R98Amzy7f32EYiLk5e&690)
