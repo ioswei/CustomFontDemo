@@ -8,7 +8,7 @@ iOS自定义字体设置与系统自带的字体＜/br＞＜/br＞
 
 3.通过眼力找到字体文件对应的fontName (command + F 搜索你想要的文件名称)
 
-![c](http://s1.sinaimg.cn/large/005R98Amzy7f32MNm1210&690)
+![C](http://s1.sinaimg.cn/large/005R98Amzy7f32SHxDO30&690)
 
 
 4.使用自定义字体
