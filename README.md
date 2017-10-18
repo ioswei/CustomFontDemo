@@ -4,7 +4,7 @@ iOS <wbr>自定义字体设置与系统自带的字体
 
 2.前往TARGETS -> Build Phases -> Copy Bundle Resources中添加字体文件 Copy Bundle Resources配置
 iOS <wbr>自定义字体设置与系统自带的字体
-
+![a](http://photo.blog.sina.com.cn/showpic.html#blogid=13fd67a560102xe0r&url=http://album.sina.com.cn/pic/005R98Amzy7f32EYiLk5e)
 
 3.通过眼力找到字体文件对应的fontName (command + F 搜索你想要的文件名称)
 NSArray *familyNames = [UIFont familyNames]; 
