@@ -7,14 +7,14 @@ iOS <wbr>自定义字体设置与系统自带的字体
 ![a](http://s15.sinaimg.cn/mw690/005R98Amzy7f32EYiLk5e&690)
 
 3.通过眼力找到字体文件对应的fontName (command + F 搜索你想要的文件名称)
-NSArray *familyNames = [UIFont familyNames]; /n
-for( NSString *familyName in familyNames ) { /n
- NSArray *fontNames = [UIFont fontNamesForFamilyName:familyName]; /n
- for( NSString *fontName in fontNames ) { /n
-   printf( "\tFont: %s \n", [fontName UTF8String] ); /n
- } /n
-}/n
-iOS <wbr>自定义字体设置与系统自带的字体
+NSArray *familyNames = [UIFont familyNames]; 
+for( NSString *familyName in familyNames ) { 
+ NSArray *fontNames = [UIFont fontNamesForFamilyName:familyName]; 
+ for( NSString *fontName in fontNames ) { 
+   printf( "\tFont: %s \n", [fontName UTF8String] );
+ } 
+}
+iOS 自定义字体设置与系统自带的字体
 
 
 foneName
