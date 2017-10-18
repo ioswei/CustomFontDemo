@@ -1,6 +1,6 @@
 # CustomFontDemo
 iOS自定义字体设置与系统自带的字体
-1.下载所需要的ttf文件,导入工程中,在Info.plist中添加一项:Fonts provided by application,填写字体文件名称加后缀.如图: Info.plist配置
+\n1.下载所需要的ttf文件,导入工程中,在Info.plist中添加一项:Fonts provided by application,填写字体文件名称加后缀.如图: Info.plist配置
 ![a](http://s15.sinaimg.cn/mw690/005R98Amzy7f32EYiLk5e&690)
 
 2.前往TARGETS -> Build Phases -> Copy Bundle Resources中添加字体文件 Copy Bundle Resources配置
@@ -12,10 +12,9 @@ iOS自定义字体设置与系统自带的字体
 
 
 4.使用自定义字体
-
-self.Label.text = @"钟齐流江毛笔草体"; 
-self.Label.font = [UIFont fontWithName:@"DigifaceWide" size:30]; 
-self.Label2.text = @"蒙纳漫画体"; 
-self.Label2.font = [UIFont fontWithName:@"MComicHK-Medium" size:30];
+self.Label.text = @"钟齐流江毛笔草体"; \n
+self.Label.font = [UIFont fontWithName:@"DigifaceWide" size:30]; \n
+self.Label2.text = @"蒙纳漫画体"; \n
+self.Label2.font = [UIFont fontWithName:@"MComicHK-Medium" size:30];\n
 ![D](http://s15.sinaimg.cn/large/005R98Amzy7f32WU9HM9e&690)
 
