@@ -25,3 +25,6 @@ NSArray *familyNames = [UIFont familyNames];<br />
 self.Label.font = [UIFont fontWithName:@"DigifaceWide" size:30]; <br /> 
 ![效果图](http://s15.sinaimg.cn/large/005R98Amzy7f32WU9HM9e&690)
 
+#### iOS交流群Q群:637387838
+
+
